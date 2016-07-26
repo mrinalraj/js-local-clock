@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    height: 100vh;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    background: #227eb8 url(images/world.png) 60% no-repeat;
+    background-size: contain;   
+    position: reletive;
+}
+@media only screen and (min-width:400px){
+    .container{
+        width: 70vw;
+        margin: 0 auto;
+    }
+}
+h1,h2,h3,h4 {
+    display: inline;
+}
+h3{
+    font-weight: 550;
+}
+h4#variable, h4#day{
+    font-weight: 300;
+}
+
+.box {
+    padding-top: 22vh;
+    padding-left: 5vw;
+    font-size: 500%;
+}
+.container{
+    width: 90vw;
+    margin: 0 auto;
+}
+
+hr {
+    margin: 0;
+    border: none;
+    height: 2px;
+    background-color: white;
+}
+h5 {
+    margin: 5px auto;
+    font-weight: 300;
+    font-size: 0.6em;
+}
+
+.footer {
+    text-align: center;
+    height: 5vh;
+    position: absolute;
+    width: 100vw;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.61);
+}
+
+h6 {
+    margin: 0;
+    line-height: 5vh;
+    font-size: 80%;
+    font-weight: 300;
+}
+h6 a{
+    text-decoration: none;
+    color: #82dafa;
+}
