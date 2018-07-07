@@ -1,5 +1,7 @@
 //function for finding timezone string
 
+//test commit and push
+
 function getTimezoneName() {
     var timeSummer = new Date(Date.UTC(2005, 6, 30, 0, 0, 0, 0));
     var summerOffset = -1 * timeSummer.getTimezoneOffset();
@@ -150,6 +152,10 @@ function display(){
     document.getElementById('year').innerHTML = year;
     document.getElementById('zone').innerHTML = getTimezoneName();
     },100);   
+
+
+//something changed here
+
 }
 
 
