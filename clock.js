@@ -150,6 +150,10 @@ function display(){
     document.getElementById('year').innerHTML = year;
     document.getElementById('zone').innerHTML = getTimezoneName();
     },100);   
+
+
+//something changed here
+
 }
 
 
